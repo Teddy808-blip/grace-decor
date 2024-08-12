@@ -10,6 +10,11 @@ header {
     padding: 1rem 0;
     position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-size: cover;
+    background-position: center;
 }
 
 header .container {
@@ -80,6 +85,8 @@ section {
 
 #portfolio {
     background-image: url(https://assets.wfcdn.com/im/84059793/c_crop_resize_zoom-h624-w900%5Ecompr-r85/2109/210977206/default_name.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .portfolio-scroll-container {
